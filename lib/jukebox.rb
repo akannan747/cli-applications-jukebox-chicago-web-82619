@@ -46,6 +46,8 @@ def run
   input = gets.strip
   until input == "exit"
     case input
+      when "help"
+        help 
       when 
   end
   exit_jukebox
