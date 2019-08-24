@@ -29,6 +29,6 @@ def play(songs)
   response = gets.strip
   songs.each_with_index { |song, index|
     if response == song || response == "#{index}"
-      puts
+      puts "Playing "
   }
 end
