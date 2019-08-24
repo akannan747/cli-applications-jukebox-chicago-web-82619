@@ -28,6 +28,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   response = gets.strip
   songs.each_with_index { |song, index|
-    if response == 
+    if response == song || response == "#{index}"
+      puts
   }
 end
