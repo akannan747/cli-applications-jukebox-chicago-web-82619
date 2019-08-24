@@ -10,4 +10,6 @@ users_name = gets.strip
 puts say_hello(users_name)
 =end
 
-help
+def help 
+  
+end
