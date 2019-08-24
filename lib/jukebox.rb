@@ -50,7 +50,8 @@ def run
         help 
       when "list"
         list 
-      when ""
+      when "play"
+        play
   end
   exit_jukebox
 end
