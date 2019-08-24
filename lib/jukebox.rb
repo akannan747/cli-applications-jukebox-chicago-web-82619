@@ -20,7 +20,7 @@ end
 
 def list(songs)
   songs.each_with_index { |song, index|
-    puts "#{index}. #{song}"
+    puts "#{index+1}. #{song}"
   }
 end
 
@@ -28,7 +28,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   response = gets.strip
   songs.each_with_index { |song, index|
-    if response == song || response == "#{index + 1}"
+    if response == song || response == "#{index+1}"
       puts "Playing #{song}"
     end
     return
