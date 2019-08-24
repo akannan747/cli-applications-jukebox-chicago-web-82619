@@ -23,3 +23,5 @@ def list(songs)
     puts "#{index}. #{song}"
   }
 end
+
+def 
