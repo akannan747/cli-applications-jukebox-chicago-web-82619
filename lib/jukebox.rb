@@ -42,4 +42,4 @@ end
 
 ###################################################
 def run 
-  puts
+  puts "Please enter a command"
