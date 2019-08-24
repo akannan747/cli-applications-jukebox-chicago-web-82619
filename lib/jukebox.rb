@@ -30,10 +30,12 @@ def play(songs)
   songs.each_with_index { |song, index|
     if response == song || response == "#{index}"
       puts "Playing #{song}"
-      return
+    end
+    return
   }
   puts "Invalid input, please try again"
 end
 
 def exit_jukebox
   puts "Goodbye"
+end
