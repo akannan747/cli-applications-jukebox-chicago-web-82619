@@ -32,5 +32,5 @@ def play(songs)
       puts "Playing #{song}"
       return
   }
-  puts 
+  puts "Invalid "
 end
