@@ -48,7 +48,9 @@ def run
     case input
       when "help"
         help 
-      when 
+      when "list"
+        list 
+      when ""
   end
   exit_jukebox
 end
