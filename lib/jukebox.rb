@@ -45,7 +45,7 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   until input == "exit"
-    case 
+    case input
   end
   exit_jukebox
 end
